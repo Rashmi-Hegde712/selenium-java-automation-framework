@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-04T16:57:01 IST" name="Hybrid Test Suite" finished-at="2026-01-04T16:58:15 IST" duration-ms="74068">
+    <groups>
+    </groups>
+    <test started-at="2026-01-04T16:57:01 IST" name="Login Test" finished-at="2026-01-04T16:57:29 IST" duration-ms="28699">
+      <class name="com.testproject.uiandapiautomation.ui.Login">
+        <test-method is-config="true" signature="setupUi(org.testng.ITestContext)[pri:0, instance:com.testproject.uiandapiautomation.ui.Login@757d6814]" started-at="2026-01-04T16:57:02 IST" name="setupUi" finished-at="2026-01-04T16:57:16 IST" duration-ms="14448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b2f4ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupUi -->
+        <test-method signature="VerifyLogin()[pri:0, instance:com.testproject.uiandapiautomation.ui.Login@757d6814]" started-at="2026-01-04T16:57:16 IST" name="VerifyLogin" finished-at="2026-01-04T16:57:29 IST" duration-ms="12704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.uiandapiautomation.ui.Login@757d6814]" started-at="2026-01-04T16:57:29 IST" name="tearDown" finished-at="2026-01-04T16:57:29 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testproject.uiandapiautomation.ui.Login -->
+    </test> <!-- Login Test -->
+    <test started-at="2026-01-04T16:57:30 IST" name="Select Buttons" finished-at="2026-01-04T16:57:44 IST" duration-ms="13712">
+      <class name="com.testproject.uiandapiautomation.ui.selectButtons">
+        <test-method is-config="true" signature="setupUi(org.testng.ITestContext)[pri:0, instance:com.testproject.uiandapiautomation.ui.selectButtons@5e8f9e2d]" started-at="2026-01-04T16:57:30 IST" name="setupUi" finished-at="2026-01-04T16:57:40 IST" duration-ms="9732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e1f584d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupUi -->
+        <test-method signature="VerifyBtnSelectionPage()[pri:0, instance:com.testproject.uiandapiautomation.ui.selectButtons@5e8f9e2d]" started-at="2026-01-04T16:57:40 IST" name="VerifyBtnSelectionPage" finished-at="2026-01-04T16:57:44 IST" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBtnSelectionPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.uiandapiautomation.ui.selectButtons@5e8f9e2d]" started-at="2026-01-04T16:57:44 IST" name="tearDown" finished-at="2026-01-04T16:57:44 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testproject.uiandapiautomation.ui.selectButtons -->
+    </test> <!-- Select Buttons -->
+    <test started-at="2026-01-04T16:57:44 IST" name="FormFill and API test" finished-at="2026-01-04T16:58:15 IST" duration-ms="30504">
+      <class name="com.testproject.uiandapiautomation.ui.FormFillUsingUIandAPI">
+        <test-method is-config="true" signature="setupUi(org.testng.ITestContext)[pri:0, instance:com.testproject.uiandapiautomation.ui.FormFillUsingUIandAPI@4204541c]" started-at="2026-01-04T16:57:44 IST" name="setupUi" finished-at="2026-01-04T16:57:52 IST" duration-ms="7274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7dff6d05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupUi -->
+        <test-method signature="fillFormUsingJson()[pri:0, instance:com.testproject.uiandapiautomation.ui.FormFillUsingUIandAPI@4204541c]" started-at="2026-01-04T16:57:52 IST" name="fillFormUsingJson" finished-at="2026-01-04T16:58:14 IST" duration-ms="22187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormUsingJson -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.uiandapiautomation.ui.FormFillUsingUIandAPI@4204541c]" started-at="2026-01-04T16:58:14 IST" name="tearDown" finished-at="2026-01-04T16:58:15 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="GenerateExtentReports()[pri:0, instance:com.testproject.uiandapiautomation.ui.FormFillUsingUIandAPI@4204541c]" started-at="2026-01-04T16:58:15 IST" name="GenerateExtentReports" finished-at="2026-01-04T16:58:15 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateExtentReports -->
+      </class> <!-- com.testproject.uiandapiautomation.ui.FormFillUsingUIandAPI -->
+    </test> <!-- FormFill and API test -->
+  </suite> <!-- Hybrid Test Suite -->
+</testng-results>

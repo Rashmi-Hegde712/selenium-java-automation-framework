@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hybrid Test Suite" parallel="methods" thread-count="3">
+
+<listeners>
+    <listener class-name="listeners.TestListener"/>
+</listeners>
+
+  <test name="Login Test UI">
+	<classes>
+      <class name="com.testproject.uiandapiautomation.ui.Login"/>
+    </classes>
+   </test>
+      
+   <test name = "Select Buttons UI">
+   	<classes>
+   		<class name="com.testproject.uiandapiautomation.ui.selectButtons"/>
+   </classes>
+   </test>
+   
+   <test name = "FormFill UI and API test ">
+	<classes>
+   		<class name="com.testproject.uiandapiautomation.ui.FormFillUsingUIandAPI"/>
+    </classes>
+   </test>  
+    
+   <test name = "API test">
+	<classes>
+   		<class name="com.testproject.uiandapiautomation.api.UserApiTest"/>
+    </classes>
+   </test>  
+    
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+{
+  "formData": [
+    {
+      "name": "John Doe",
+      "email": "john@test.com",
+      "message": "This is a test message from Selenium JSON data."
+    },
+    {
+      "name": "Sarah Tester",
+      "email": "sarah@example.com",
+      "message": "Automation with JSON is great!"
+    }
+  ]
+}

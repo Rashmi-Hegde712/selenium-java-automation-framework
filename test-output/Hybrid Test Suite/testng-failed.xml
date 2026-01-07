@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Hybrid Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="3" parallel="methods" name="Login Test(failed)">
+    <classes>
+      <class name="com.testproject.uiandapiautomation.ui.Login">
+        <methods>
+          <include name="VerifyLogin"/>
+          <include name="GenerateExtentReports"/>
+          <include name="setupUi"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testproject.uiandapiautomation.ui.Login -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Hybrid Test Suite] -->
