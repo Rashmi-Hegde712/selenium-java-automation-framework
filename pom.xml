@@ -12,6 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <suiteFile>testng.xml</suiteFile>
+   <cucumber.version>7.18.1</cucumber.version>
   </properties>
 
   <dependencies>
@@ -45,6 +47,20 @@
 	    <artifactId>json-schema-validator</artifactId>
 	    <version>5.5.0</version>
 	</dependency>
+	
+	<dependency>
+        <groupId>io.cucumber</groupId>
+     	<artifactId>cucumber-java</artifactId>
+     	<version>${cucumber.version}</version>
+     	<scope>test</scope>
+   </dependency>
+   
+   <dependency>
+   		<groupId>io.cucumber</groupId>
+   		<artifactId>cucumber-testng</artifactId>
+     	<version>${cucumber.version}</version>
+     	<scope>test</scope>
+   </dependency>
 	
 	<!-- JSON parsing -->
 	<dependency>
@@ -85,8 +101,7 @@
     	<groupId>com.aventstack</groupId>
     	<artifactId>extentreports-testng-adapter</artifactId>
     	<version>1.2.2</version>
-	</dependency>
-            
+	</dependency>            
   </dependencies>
   
   <build>
@@ -99,7 +114,7 @@
                 <version>3.2.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>${suiteFile}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

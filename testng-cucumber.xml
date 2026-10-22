@@ -1,0 +1,7 @@
+<suite name="Cucumber BDD Suite" data-provider-thread-count="2">
+    <test name="Cucumber Scenarios">
+        <classes>
+            <class name="com.testproject.uiandapiautomation.bdd.runner.CucumberTestRunner"/>
+        </classes>
+    </test>
+</suite>
